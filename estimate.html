@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Estimate | Apex Build & Remodel | Cleveland, OH</title>
+  <meta name="description" content="Request a free on-site estimate from Apex Build & Remodel. Tyler Holt responds within 24 hours. Kitchen, bathroom, additions, roofing, and commercial projects." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <div class="top-bar-item"><i class="fas fa-map-marker-alt"></i><span>5200 Commerce Pkwy, Suite 100, Cleveland, OH 44130</span></div>
+        <div class="top-bar-item"><i class="fas fa-clock"></i><span>Mon–Fri 7AM–5PM | Emergency Line 24/7</span></div>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-bar-item"><i class="fas fa-star" style="color:#fbbf24"></i><span>4.8/5 Stars — 2,400+ Google Reviews</span></div>
+        <div class="top-bar-item"><a href="tel:5553864700"><i class="fas fa-phone"></i> (555) 386-4700</a></div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo"><div class="logo-mark">AB</div><div><div class="logo-text-main">Apex Build</div><span class="logo-text-sub">&amp; Remodel</span></div></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="testimonials.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="estimate.html" class="nav-cta active"><i class="fas fa-file-alt"></i> Free Estimate</a></li>
+      </ul>
+      <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80')"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span><span class="current">Free Estimate</span></div>
+      <div class="section-label"><i class="fas fa-file-alt"></i> No Obligation</div>
+      <h1>Get a Free Estimate</h1>
+      <p>Fill out the form below. Tyler Holt visits your home within 48 hours and delivers a detailed written quote — no pressure, no surprises.</p>
+    </div>
+  </div>
+
+  <section class="estimate-section">
+    <div class="container">
+      <div class="estimate-grid">
+
+        <!-- ESTIMATE FORM -->
+        <div class="estimate-form-card">
+          <h2>Project Details</h2>
+          <p>Tell us about your project and we'll get back to you within 24 hours to schedule your free on-site visit.</p>
+
+          <form id="estimateForm">
+            <div style="margin-bottom:1.75rem;">
+              <div class="form-label" style="margin-bottom:0.875rem;">What type of project is this? *</div>
+              <input type="hidden" id="project-type-hidden" value="" />
+              <div class="project-type-grid">
+                <div class="project-type-card" data-type="Kitchen Remodel"><i class="fas fa-utensils"></i><span>Kitchen Remodel</span></div>
+                <div class="project-type-card" data-type="Bathroom Remodel"><i class="fas fa-bath"></i><span>Bathroom Remodel</span></div>
+                <div class="project-type-card" data-type="Room Addition"><i class="fas fa-home"></i><span>Room Addition</span></div>
+                <div class="project-type-card" data-type="New Construction"><i class="fas fa-hammer"></i><span>New Construction</span></div>
+                <div class="project-type-card" data-type="Commercial"><i class="fas fa-building"></i><span>Commercial</span></div>
+                <div class="project-type-card" data-type="Roofing / Exterior"><i class="fas fa-house-damage"></i><span>Roofing / Exterior</span></div>
+                <div class="project-type-card" data-type="Basement Finishing"><i class="fas fa-couch"></i><span>Basement Finishing</span></div>
+                <div class="project-type-card" data-type="Other / Not Sure"><i class="fas fa-question-circle"></i><span>Other / Not Sure</span></div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="est-name">Full Name *</label>
+                <input class="form-input" id="est-name" type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="est-phone">Phone *</label>
+                <input class="form-input" id="est-phone" type="tel" placeholder="(555) 000-0000" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="est-email">Email Address *</label>
+              <input class="form-input" id="est-email" type="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="est-address">Property Address</label>
+              <input class="form-input" id="est-address" type="text" placeholder="Street address where work will be done" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="est-budget">Estimated Budget</label>
+                <select class="form-select" id="est-budget">
+                  <option value="">I'm not sure yet</option>
+                  <option>Under $15,000</option>
+                  <option>$15,000 – $30,000</option>
+                  <option>$30,000 – $60,000</option>
+                  <option>$60,000 – $100,000</option>
+                  <option>$100,000 – $250,000</option>
+                  <option>$250,000+</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="est-timeline">Desired Timeline</label>
+                <select class="form-select" id="est-timeline">
+                  <option>ASAP — ready to start</option>
+                  <option>1–3 months</option>
+                  <option>3–6 months</option>
+                  <option>6–12 months</option>
+                  <option>Just planning ahead</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="est-desc">Project Description *</label>
+              <textarea class="form-textarea" id="est-desc" placeholder="Tell us more: what you're hoping to achieve, current pain points, any specific materials or ideas you have in mind..." required></textarea>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="est-how">How Did You Hear About Us?</label>
+              <select class="form-select" id="est-how">
+                <option>Google Search</option>
+                <option>Google Reviews</option>
+                <option>Friend / Neighbor Referral</option>
+                <option>Facebook</option>
+                <option>Instagram</option>
+                <option>Nextdoor</option>
+                <option>Drive By / Yard Sign</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-orange" style="width:100%;justify-content:center;font-size:1rem;padding:1.1rem;">
+              <i class="fas fa-paper-plane"></i> Submit Estimate Request
+            </button>
+            <p class="form-note"><i class="fas fa-shield-alt"></i> Your info is private. Tyler personally reviews every request within 24 hours.</p>
+          </form>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="estimate-sidebar">
+          <div class="est-sidebar-card">
+            <h3><i class="fas fa-check-circle" style="color:var(--orange-light);margin-right:0.5rem;"></i>What Happens Next</h3>
+            <div class="est-feature"><i class="fas fa-clock"></i><span>Tyler responds by phone or text within 24 hours to confirm your estimate appointment.</span></div>
+            <div class="est-feature"><i class="fas fa-hard-hat"></i><span>A project manager visits your home — typically within 48 hours — to review the scope in person.</span></div>
+            <div class="est-feature"><i class="fas fa-file-invoice-dollar"></i><span>You receive a detailed written quote (simulated PDF via Make.com) within 2 business days.</span></div>
+            <div class="est-feature"><i class="fas fa-handshake"></i><span>No pressure to decide. The estimate is yours to keep — compare it with anyone.</span></div>
+          </div>
+
+          <div class="est-sidebar-card" style="background:rgba(249,115,22,0.12);border:1px solid rgba(249,115,22,0.3);">
+            <h3 style="color:var(--orange-light);">Estimate Follow-Up Sequence</h3>
+            <p style="color:rgba(255,255,255,0.65);font-size:0.82rem;margin-bottom:1.25rem;">If we don't hear back after your estimate, here's how Apex follows up:</p>
+            <div class="followup-seq">
+              <div class="fseq-item">
+                <div class="fseq-dot">1</div>
+                <div class="fseq-content"><div class="fseq-time">Day 0</div><h5>Estimate + PDF Quote Sent</h5><p>Detailed written quote emailed + PDF quote template generated via Make.com</p></div>
+              </div>
+              <div class="fseq-item">
+                <div class="fseq-dot">2</div>
+                <div class="fseq-content"><div class="fseq-time">Day 1</div><h5>Personal Call from Tyler</h5><p>"Hi, just wanted to check if you had any questions about the quote I sent..."</p></div>
+              </div>
+              <div class="fseq-item">
+                <div class="fseq-dot">3</div>
+                <div class="fseq-content"><div class="fseq-time">Day 3</div><h5>Follow-Up Email + Revised Option</h5><p>Tyler sends a budget-friendly alternative if the original was over budget</p></div>
+              </div>
+              <div class="fseq-item">
+                <div class="fseq-dot gray">4</div>
+                <div class="fseq-content"><div class="fseq-time">Day 7</div><h5>Final Check-In</h5><p>"Still interested? No worries if timing isn't right — we're here when you're ready."</p></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="est-process">
+            <h3>Budget Ranges</h3>
+            <div style="display:flex;flex-direction:column;gap:0.75rem;margin-top:0.5rem;">
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--gray-200);font-size:0.85rem;">
+                <span><i class="fas fa-utensils" style="color:var(--orange);margin-right:0.5rem;"></i> Kitchen Remodel</span>
+                <strong style="color:var(--charcoal);">$25K – $80K+</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--gray-200);font-size:0.85rem;">
+                <span><i class="fas fa-bath" style="color:var(--orange);margin-right:0.5rem;"></i> Bathroom Remodel</span>
+                <strong style="color:var(--charcoal);">$8K – $45K</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--gray-200);font-size:0.85rem;">
+                <span><i class="fas fa-home" style="color:var(--orange);margin-right:0.5rem;"></i> Room Addition</span>
+                <strong style="color:var(--charcoal);">$60K – $200K</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--gray-200);font-size:0.85rem;">
+                <span><i class="fas fa-hammer" style="color:var(--orange);margin-right:0.5rem;"></i> New Construction</span>
+                <strong style="color:var(--charcoal);">$225K – $500K+</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;border-bottom:1px solid var(--gray-200);font-size:0.85rem;">
+                <span><i class="fas fa-house-damage" style="color:var(--orange);margin-right:0.5rem;"></i> Roofing</span>
+                <strong style="color:var(--charcoal);">$8K – $25K</strong>
+              </div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:0.6rem 0;font-size:0.85rem;">
+                <span><i class="fas fa-couch" style="color:var(--orange);margin-right:0.5rem;"></i> Basement</span>
+                <strong style="color:var(--charcoal);">$30K – $80K</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESTIMATE CONFIRMATION MODAL -->
+  <div class="modal-overlay" id="estimateModal">
+    <div class="modal-card">
+      <div class="modal-icon success"><i class="fas fa-check"></i></div>
+      <h3>Estimate Request Received!</h3>
+      <p>Thanks, <strong id="conf-est-name">Friend</strong>! Your <strong id="conf-est-project">project</strong> estimate request is in. Tyler will call or text you within 24 hours.</p>
+      <div class="modal-box">
+        <h4>What Happens Now</h4>
+        <div class="conf-row"><i class="fas fa-phone"></i><span>Tyler calls you within 24 hours to schedule your free on-site visit</span></div>
+        <div class="conf-row"><i class="fas fa-file-invoice-dollar"></i><span>Detailed written quote + PDF template sent within 48 hrs of visit</span></div>
+        <div class="conf-row"><i class="fas fa-dollar-sign"></i><span>Budget noted: <strong id="conf-est-budget">See quote</strong></span></div>
+      </div>
+      <div class="seq-list">
+        <h4>Your Estimate Follow-Up Sequence</h4>
+        <div class="seq-item"><div class="seq-dot"></div><span>PDF quote emailed + Make.com confirmation</span><span class="stime">Day 0</span></div>
+        <div class="seq-item"><div class="seq-dot"></div><span>Personal call from Tyler Holt</span><span class="stime">Day 1</span></div>
+        <div class="seq-item"><div class="seq-dot"></div><span>Follow-up email with budget options</span><span class="stime">Day 3</span></div>
+        <div class="seq-item"><div class="seq-dot"></div><span>Final check-in — no pressure</span><span class="stime">Day 7</span></div>
+      </div>
+      <div class="sms-preview">
+        <i class="fas fa-mobile-alt"></i>
+        <span><strong>Tyler @ Apex Build:</strong> Hi! Got your estimate request. I'll call tomorrow to set up a time to come see the project. Looking forward to it! 🏗️</span>
+      </div>
+      <button class="btn btn-orange" style="width:100%;justify-content:center;" onclick="closeModal('estimateModal')">Perfect — Talk Soon!</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="nav-logo"><div class="logo-mark">AB</div><div><div class="logo-text-main">Apex Build</div><span class="logo-text-sub">&amp; Remodel</span></div></a><p>Cleveland's trusted general contractor since 2011. 850+ projects. Licensed, insured, built on reputation.</p><div class="footer-social"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a><a href="#" class="social-link"><i class="fab fa-instagram"></i></a><a href="#" class="social-link"><i class="fab fa-youtube"></i></a></div></div>
+        <div class="footer-col"><h4>Services</h4><ul class="footer-links"><li><a href="kitchen.html"><i class="fas fa-chevron-right"></i> Kitchen Remodeling</a></li><li><a href="bathroom.html"><i class="fas fa-chevron-right"></i> Bathroom Remodeling</a></li><li><a href="additions.html"><i class="fas fa-chevron-right"></i> Room Additions</a></li><li><a href="services.html"><i class="fas fa-chevron-right"></i> All Services</a></li></ul></div>
+        <div class="footer-col"><h4>Company</h4><ul class="footer-links"><li><a href="about.html"><i class="fas fa-chevron-right"></i> About Apex</a></li><li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfolio</a></li><li><a href="testimonials.html"><i class="fas fa-chevron-right"></i> Reviews</a></li><li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Contact Us</h4><div class="footer-contact-item"><i class="fas fa-phone"></i><a href="tel:5553864700">(555) 386-4700</a></div><div class="footer-contact-item"><i class="fas fa-envelope"></i><a href="mailto:tyler@apexbuildremodel.com">tyler@apexbuildremodel.com</a></div><div class="footer-cta-box"><p>Free estimates — no obligation</p><a href="estimate.html"><i class="fas fa-file-alt"></i> Request Estimate Now</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>© 2024 Apex Build &amp; Remodel. All rights reserved. <em style="font-size:0.72rem;opacity:0.4">— Demo Site</em></span><div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">License Info</a></div></div>
+    </div>
+  </footer>
+
+  <button class="chatbot-toggle" aria-label="Chat with Max AI"><i class="fas fa-hard-hat"></i><span class="chatbot-badge" style="display:none">1</span></button>
+  <div class="chatbot-window">
+    <div class="chatbot-header"><div class="chatbot-avatar">AB</div><div class="chatbot-header-info"><h4>Max — Estimate Assistant</h4><p><span class="online-dot"></span>Apex Build &amp; Remodel</p></div><button class="chatbot-close"><i class="fas fa-times"></i></button></div>
+    <div class="chatbot-messages"></div>
+    <div class="chatbot-quick-replies"></div>
+    <div class="chatbot-input-area"><input class="chatbot-input" type="text" placeholder="Ask about pricing or project details..." /><button class="chatbot-send"><i class="fas fa-paper-plane"></i></button></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
